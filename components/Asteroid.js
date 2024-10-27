@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, Alert } from 'react-native';
 import axios from 'axios';
 
-const API_KEY = 'PsBOrTpXKNqths7FypkwzUOSaZyHhe4dN8Byx2Ge';
+const API_KEY = 'Knj5ITpNabNudgapGw1dki5B6NhsYLueHhzuPoSm';
 
 export default function Asteroid({ asteroidId, setAsteroidData, setAsteroidId }) {
   const fetchAsteroidData = async (id) => {
